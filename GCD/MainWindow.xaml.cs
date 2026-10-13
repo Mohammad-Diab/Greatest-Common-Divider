@@ -30,7 +30,7 @@ namespace GCD
             long n, m;
             long.TryParse(Number1.Text, out n);
             long.TryParse(Number2.Text, out m);
-            if ((n > 9223372036854775807 || n < 2) && (m > 9223372036854775807 || m < 2))
+            if ((n > 9223372036854775807 || n < 2) || (m > 9223372036854775807 || m < 2))
                 MessageBox.Show("Nubmers must be in this domin\n[2,9223372036854775807]", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             else
             {
@@ -46,7 +46,7 @@ namespace GCD
             long n, m;
             long.TryParse(Number1.Text, out n);
             long.TryParse(Number2.Text, out m);
-            if ((n > 9223372036854775807 || n < 2) && (m > 9223372036854775807 || m < 2))
+            if ((n > 9223372036854775807 || n < 2) || (m > 9223372036854775807 || m < 2))
                 MessageBox.Show("Nubmers must be in this domin\n[2,9223372036854775807]", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             else
             {
@@ -62,7 +62,7 @@ namespace GCD
             long n, m;
             long.TryParse(Number1.Text, out n);
             long.TryParse(Number2.Text, out m);
-            if ((n > 9223372036854775807 || n < 2) && (m > 9223372036854775807 || m < 2))
+            if ((n > 9223372036854775807 || n < 2) || (m > 9223372036854775807 || m < 2))
                 MessageBox.Show("Nubmers must be in this domin\n[2,9223372036854775807]", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             else
             {
